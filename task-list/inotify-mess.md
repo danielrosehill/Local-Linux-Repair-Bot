@@ -1,0 +1,5 @@
+# Task 1: Debug Some Inotify Chaos
+
+Here is your task. For the past week, I have been having difficulty using the Windsurf IDE installed on this computer, and intermittent difficulty with other tools, especially IDEs. The commonality seems to be issues with inode consumption or node exhaustion. I've tried basic troubleshooting steps to resolve these difficulties, including raising the system limits, searching for any Chrome extensions that might be contributing to the memory loss, and reinstalling the IDE.
+
+Reinstalling the IDE and wiping its configuration has not helped and is a destructive action that you should not do. Instead, try to get to the heart of what is causing these issues. I suspect that it may have to do with the BTRFS file system running on this computer, and something about the configuration. However, if you go in the direction of trying to change BTRFS, make sure that you never enable quota, as this can cause severe problems. Work through the issue logically.
